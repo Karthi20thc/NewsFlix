@@ -85,7 +85,7 @@ CategoryContainerEL.addEventListener("click", (event) => {
       fetchingEl.classList.add("green");
     } catch (error) {
       console.log(error);
-      newsContentEl.textContent = error;
+      // newsContentEl.textContent = error;
       window.alert(
         "SomeThing went Wrong !!!! Try refreshing The webpage and Try Again😁😁😁😁"
       );
