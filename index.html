@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEWSFLIX | News in minutes</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;1,700&display=swap" rel="stylesheet"> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.4/axios.min.js"
+      integrity="sha512-LUKzDoJKOLqnxGWWIBM4lzRBlxcva2ZTztO8bTcWPmDSpkErWx0bSP4pdsjNH8kiHAUPaT06UXcb+vOEZH+HpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <div class="headerContainer">
+      <div></div>
+      <div><span class="Logo">NEWSFLIX</span></div>
+      <div>Date and Time</div>
+    </div>
+    <main>
+      <div class="CategoryContainer">
+        <button class="category_btn" value="all">All</button>
+        <button class="category_btn" value="national">National</button>
+        <button class="category_btn" value="business">Business</button>
+        <button class="category_btn" value="sports">Sports</button>
+        <button class="category_btn" value="world">World</button>
+        <button class="category_btn" value="politics">Politics</button>
+        <button class="category_btn" value="technology">Technology</button>
+        <button class="category_btn" value="startup">StartUp</button>
+        <button class="category_btn" value="entertainment">
+          Entertainment
+        </button>
+        <button class="category_btn" value="miscellaneous">
+          Miscellaneous
+        </button>
+        <button class="category_btn" value="hatke">Hatke</button>
+        <button class="category_btn" value="science">Science</button>
+        <button class="category_btn" value="automobile">AutoMobile</button>
+      </div>
+      <div style="margin-bottom: 15px">
+        <!-- <div>Click to See News and Change Category</div> -->
+        <span>Showing Results for </span><span class="clickedButton">All</span>
+        <div class="fetching"></div>
+      </div>
+
+      <!-- 1 -->
+      <div class="newsContentContainer">
+        <!-- here i will inject the html element through javascript -->
+      </div>
+    </main>
+    <footer style="text-align: center">Created with love ❤️ in India, Written in Pure HTML, CSS and JAVASCRIPT</footer>
+    <!-- <button class="fetchAPI_btn">Fetch Api</button>
+    <div>
+        <img  class="image_url" src="" alt="">
+    </div> -->
+    <script src="functions.js"></script>
+    <script src="InjectHtmlUsingJavaScript.js"></script>
+  </body>
+</html>
